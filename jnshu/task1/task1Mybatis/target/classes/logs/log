@@ -1,0 +1,36 @@
+2018-11-14 16:38:37,005 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.insertStudent - ==>  Preparing: insert into jnshu_student (create_at,update_at,name,QQ,choose_study_type,roughly_study_time,graduate_school,online_study_id,daily_link,coach_senior,declaration,where_to_know) values (?,?,?,?,?,?,?,?,?,?,?,?) 
+2018-11-14 16:38:37,074 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.insertStudent - ==> Parameters: 20181108(Long), 20181108(Long), 小明(String), 938738637(Long), Java(String), 20180915(Long), 蓝翔技校(String), 5084(Long), http://www.jnshu.com/school/31678/daily(String), 张亚强(String), 好好学习，天天向上(String), 知乎(String)
+2018-11-14 16:38:37,138 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.insertStudent - <==    Updates: 1
+2018-11-14 16:38:37,144 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.insertStudent!selectKey - ==>  Preparing: select LAST_INSERT_ID() 
+2018-11-14 16:38:37,145 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.insertStudent!selectKey - ==> Parameters: 
+2018-11-14 16:38:37,256 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.insertStudent!selectKey - <==      Total: 1
+2018-11-14 16:39:05,388 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.deleteStudentById - ==>  Preparing: delete from jnshu_student where id=? 
+2018-11-14 16:39:05,438 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.deleteStudentById - ==> Parameters: 24(Integer)
+2018-11-14 16:39:05,501 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.deleteStudentById - <==    Updates: 1
+2018-11-14 16:39:10,240 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.deleteStudentById - ==>  Preparing: delete from jnshu_student where id=? 
+2018-11-14 16:39:10,277 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.deleteStudentById - ==> Parameters: 24(Integer)
+2018-11-14 16:39:10,341 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.deleteStudentById - <==    Updates: 0
+2018-11-14 16:39:33,589 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.deleteStudentById - ==>  Preparing: delete from jnshu_student where id=? 
+2018-11-14 16:39:33,631 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.deleteStudentById - ==> Parameters: 24(Integer)
+2018-11-14 16:39:33,725 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.deleteStudentById - <==    Updates: 0
+2018-11-14 16:39:50,526 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.deleteStudentById - ==>  Preparing: delete from jnshu_student where id=? 
+2018-11-14 16:39:50,590 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.deleteStudentById - ==> Parameters: 24(Integer)
+2018-11-14 16:39:50,662 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.deleteStudentById - <==    Updates: 0
+2018-11-14 16:40:06,131 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.deleteStudentById - ==>  Preparing: delete from jnshu_student where id=? 
+2018-11-14 16:40:06,177 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.deleteStudentById - ==> Parameters: 24(Integer)
+2018-11-14 16:40:06,239 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.deleteStudentById - <==    Updates: 0
+2018-11-14 16:40:40,791 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.updateStudentById - ==>  Preparing: update jnshu_student set choose_study_type=?,update_at=? where id=? 
+2018-11-14 16:40:40,843 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.updateStudentById - ==> Parameters: c++(String), 20181108(Long), 13(Long)
+2018-11-14 16:40:40,910 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.updateStudentById - <==    Updates: 1
+2018-11-14 16:40:56,253 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.updateStudentById - ==>  Preparing: update jnshu_student set choose_study_type=?,update_at=? where id=? 
+2018-11-14 16:40:56,307 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.updateStudentById - ==> Parameters: c++(String), 20181108(Long), 13(Long)
+2018-11-14 16:40:56,369 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.updateStudentById - <==    Updates: 1
+2018-11-14 16:41:10,569 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.updateStudentById - ==>  Preparing: update jnshu_student set choose_study_type=?,update_at=? where id=? 
+2018-11-14 16:41:10,605 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.updateStudentById - ==> Parameters: c++(String), 20181108(Long), 12(Long)
+2018-11-14 16:41:10,664 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.updateStudentById - <==    Updates: 0
+2018-11-14 16:41:39,198 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.queryStudentById - ==>  Preparing: select * from jnshu_student where id=? 
+2018-11-14 16:41:39,276 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.queryStudentById - ==> Parameters: 6(Integer)
+2018-11-14 16:41:39,362 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.queryStudentById - <==      Total: 1
+2018-11-14 16:41:48,397 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.queryStudentById - ==>  Preparing: select * from jnshu_student where id=? 
+2018-11-14 16:41:48,428 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.queryStudentById - ==> Parameters: 3(Integer)
+2018-11-14 16:41:48,476 [main] DEBUG LOG4J com.jnshu.task1.dao.IStudentDao.queryStudentById - <==      Total: 0

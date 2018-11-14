@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="324c64ab-383a-4e57-b962-fa247fdeb005" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/task1JDBC/src/test/java/com/jnshu/task1/dao/interfaces/IStudentDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TASK1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TASK1/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jnshu/task1/common/bean/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jnshu/task1/common/util/ConnectionFactionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jnshu/task1/dao/impl/StudentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/task1JDBC/src/main/java/com/jnshu/task1/dao/impl/StudentDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jnshu/task1/dao/interfaces/IStudentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jnshu/task1/service/impl/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jnshu/task1/service/interfaces/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/logs/log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TASK1/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jnshu/task1/service/interfaces/IStudentServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1Mybatis/src/main/resource/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/task1Mybatis/src/main/resource/logs/log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1Mybatis/src/test/java/com/jnshu/task1/dao/IStudentDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task1Mybatis/src/test/java/com/jnshu/task1/dao/IStudentDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1Mybatis/task1Mybatis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1Spring-Mybatis/src/main/resource/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/task1Spring-Mybatis/src/main/resource/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1Spring-Mybatis/src/main/resource/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/task1Spring-Mybatis/src/main/resource/logs/log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1Spring-Mybatis/src/test/java/com/jnshu/task1/dao/IStudentDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task1Spring-Mybatis/src/test/java/com/jnshu/task1/dao/IStudentDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1jdbcTemplate/src/main/java/com/jnshu/task1/dao/impl/StudentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/task1jdbcTemplate/src/main/java/com/jnshu/task1/dao/impl/StudentDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1jdbcTemplate/src/main/resource/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/task1jdbcTemplate/src/main/resource/logs/log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1jdbcTemplate/src/test/java/com/jnshu/task1/dao/interfaces/IStudentDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task1jdbcTemplate/src/test/java/com/jnshu/task1/dao/interfaces/IStudentDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1jdbcTemplate/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/task1jdbcTemplate/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1jdbcTemplate/target/classes/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/task1jdbcTemplate/target/classes/logs/log" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/task1jdbcTemplate/target/" />
+    <ignored path="$PROJECT_DIR$/task1Mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/task1Spring-Mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/task1Spring-MybatisAnnotation/target/" />
+    <ignored path="$PROJECT_DIR$/task1JDBC/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="47.106.245.125" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="47.106.245.125" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="47.106.245.125" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="47.106.245.125" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="86653765">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="4211" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Properties" value="144" />
+          <entry key="SQL" value="7" />
+          <entry key="XML" value="392" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="Database Element" value="1" />
+          <entry key="JAVA" value="51" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Properties" value="16" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="2018-11-09" value="1" />
+          <entry key="class" value="2" />
+          <entry key="java" value="51" />
+          <entry key="jnshu_student" value="1" />
+          <entry key="log" value="11" />
+          <entry key="properties" value="16" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="4212" />
+          <entry key="properties" value="144" />
+          <entry key="txt" value="4" />
+          <entry key="xml" value="398" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="269208072">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="2018-11-13" value="1" />
+          <entry key="class" value="3" />
+          <entry key="java" value="31" />
+          <entry key="log" value="1" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="31" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="535" />
+          <entry key="properties" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="535" />
+          <entry key="Properties" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task1Spring-Mybatis/src/test/java/com/jnshu/task1/dao/IStudentDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task1Spring-Mybatis/src/main/resource/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../cust-center" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../cust-center1" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TASK1/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resource/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/task1/common/bean/Student.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jnshu/task1/service/interfaces/IStudentServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/task1/service/interfaces/IStudentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/task1/dao/interfaces/IStudentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/task1/common/util/ConnectionFactionary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/task1/service/impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jnshu/task1/dao/impl/StudentDaoImpl.java" />
+        <option value="$PROJECT_DIR$/task1jdbcTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/task1jdbcTemplate/src/main/resource/datasource.properties" />
+        <option value="$PROJECT_DIR$/task1jdbcTemplate/src/main/java/com/jnshu/task1/common/bean/Student.java" />
+        <option value="$PROJECT_DIR$/task1jdbcTemplate/src/main/resource/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/task1jdbcTemplate/src/main/java/com/jnshu/task1/dao/interfaces/IStudentDao.java" />
+        <option value="$PROJECT_DIR$/task1Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/task1jdbcTemplate/src/main/resource/log4j.properties" />
+        <option value="$PROJECT_DIR$/task1Mybatis/src/main/java/com/jnshu/task1/common/util/MybatisSqlSessionFactory.java" />
+        <option value="$PROJECT_DIR$/task1Mybatis/src/main/resource/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/task1Mybatis/src/main/java/com/jnshu/task1/dao/IStudentDao.java" />
+        <option value="$PROJECT_DIR$/task1Mybatis/src/main/java/com/jnshu/task1/common/bean/Student.java" />
+        <option value="$PROJECT_DIR$/task1Mybatis/src/main/resource/studentMapper.xml" />
+        <option value="$PROJECT_DIR$/task1Spring-Mybatis/src/main/resource/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/task1Spring-Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/task1Spring-MybatisAnnotation/pom.xml" />
+        <option value="$PROJECT_DIR$/task1Spring-MybatisAnnotation/src/main/java/TASK1/dao/IStudentDao.java" />
+        <option value="$PROJECT_DIR$/task1Spring-MybatisAnnotation/src/main/java/com/jnshu/task1/task1/dao/IStudentDao.java" />
+        <option value="$PROJECT_DIR$/task1Spring-MybatisAnnotation/src/test/java/com/jnshu/task1/dao/IStudentDaoTest.java" />
+        <option value="$PROJECT_DIR$/task1Spring-MybatisAnnotation/src/main/resource/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/task1Spring-MybatisAnnotation/src/main/java/com/jnshu/task1/dao/IStudentDao.java" />
+        <option value="$PROJECT_DIR$/task1JDBC/src/main/java/com/jnshu/task1/dao/interfaces/IStudentDao.java" />
+        <option value="$PROJECT_DIR$/task1JDBC/src/main/java/com/jnshu/task1/dao/impl/StudentDaoImpl.java" />
+        <option value="$PROJECT_DIR$/task1JDBC/src/test/java/com/jnshu/task1/dao/interfaces/IStudentDaoTest.java" />
+        <option value="$PROJECT_DIR$/task1jdbcTemplate/src/test/java/com/jnshu/task1/dao/interfaces/IStudentDaoTest.java" />
+        <option value="$PROJECT_DIR$/task1jdbcTemplate/src/main/java/com/jnshu/task1/dao/impl/StudentDaoImpl.java" />
+        <option value="$PROJECT_DIR$/task1Mybatis/src/test/java/com/jnshu/task1/dao/IStudentDaoTest.java" />
+        <option value="$PROJECT_DIR$/task1Spring-Mybatis/src/test/java/com/jnshu/task1/dao/IStudentDaoTest.java" />
+        <option value="$PROJECT_DIR$/task1Spring-Mybatis/src/main/resource/log4j.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="540" />
+    <option name="width" value="1400" />
+    <option name="height" value="990" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TASK1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TASK1.1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TASK1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TASK1.1" type="462c0819:PsiDirectoryNode" />
+              <item name="task1Spring-Mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TASK1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TASK1.1" type="462c0819:PsiDirectoryNode" />
+              <item name="task1Spring-Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TASK1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TASK1.1" type="462c0819:PsiDirectoryNode" />
+              <item name="task1Spring-Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TASK1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TASK1.1" type="462c0819:PsiDirectoryNode" />
+              <item name="task1Spring-Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TASK1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TASK1.1" type="462c0819:PsiDirectoryNode" />
+              <item name="task1Spring-Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TASK1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TASK1.1" type="462c0819:PsiDirectoryNode" />
+              <item name="task1Spring-Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TASK1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TASK1.1" type="462c0819:PsiDirectoryNode" />
+              <item name="task1Spring-Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TASK1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TASK1.1" type="462c0819:PsiDirectoryNode" />
+              <item name="task1Spring-Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542185353680" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.jnshu.task1.dao.interfaces" />
+      <recent name="com.jnshu.task1.dao" />
+      <recent name="com.jnshu.task1.service.interfaces" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jnshu.task1.dao" />
+      <recent name="com.jnshu.task1.common.bean" />
+      <recent name="com.jnshu.task1.common.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IntelliJ IDEA\project\TASK1\task1Spring-MybatisAnnotation\src\main\resource" />
+      <recent name="F:\IntelliJ IDEA\project\TASK1\task1Spring-MybatisAnnotation\src\main\java\com\jnshu\task1" />
+      <recent name="F:\IntelliJ IDEA\project\TASK1\task1Spring-MybatisAnnotation\src\main\java" />
+      <recent name="F:\IntelliJ IDEA\project\TASK1\task1Spring-Mybatis\src\main\resource" />
+      <recent name="F:\IntelliJ IDEA\project\TASK1\task1Mybatis\src\main\resource" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.IStudentDaoTest.deleteStudentById (2)">
+    <configuration name="IStudentDaoTest.deleteStudentById (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task1Spring-Mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jnshu.task1.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jnshu.task1.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.jnshu.task1.dao.IStudentDaoTest" />
+      <option name="METHOD_NAME" value="deleteStudentById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IStudentDaoTest.deleteStudentById (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task1Spring-MybatisAnnotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jnshu.task1.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jnshu.task1.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.jnshu.task1.dao.IStudentDaoTest" />
+      <option name="METHOD_NAME" value="deleteStudentById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IStudentDaoTest.queryAllStudent (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task1Mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jnshu.task1.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jnshu.task1.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.jnshu.task1.dao.IStudentDaoTest" />
+      <option name="METHOD_NAME" value="queryAllStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IStudentDaoTest.queryStudentById (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task1Mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jnshu.task1.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jnshu.task1.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.jnshu.task1.dao.IStudentDaoTest" />
+      <option name="METHOD_NAME" value="queryStudentById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IStudentDaoTest.updateStudentById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task1Mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jnshu.task1.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jnshu.task1.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.jnshu.task1.dao.IStudentDaoTest" />
+      <option name="METHOD_NAME" value="updateStudentById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.IStudentDaoTest.updateStudentById" />
+      <item itemvalue="JUnit.IStudentDaoTest.queryStudentById (1)" />
+      <item itemvalue="JUnit.IStudentDaoTest.queryAllStudent (1)" />
+      <item itemvalue="JUnit.IStudentDaoTest.deleteStudentById (1)" />
+      <item itemvalue="JUnit.IStudentDaoTest.deleteStudentById (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IStudentDaoTest.deleteStudentById (2)" />
+        <item itemvalue="JUnit.IStudentDaoTest.deleteStudentById (1)" />
+        <item itemvalue="JUnit.IStudentDaoTest.queryAllStudent (1)" />
+        <item itemvalue="JUnit.IStudentDaoTest.queryStudentById (1)" />
+        <item itemvalue="JUnit.IStudentDaoTest.updateStudentById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="324c64ab-383a-4e57-b962-fa247fdeb005" name="Default Changelist" comment="" />
+      <created>1541405852086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541405852086</updated>
+      <workItem from="1541405859796" duration="3648000" />
+      <workItem from="1541472493141" duration="20401000" />
+      <workItem from="1541517176566" duration="1476000" />
+      <workItem from="1541556431041" duration="3879000" />
+      <workItem from="1541576553963" duration="12204000" />
+      <workItem from="1541600728523" duration="4577000" />
+      <workItem from="1541658959479" duration="11355000" />
+      <workItem from="1541679920108" duration="129000" />
+      <workItem from="1541690486394" duration="2468000" />
+      <workItem from="1541730775763" duration="8246000" />
+      <workItem from="1541988794762" duration="1540000" />
+      <workItem from="1542007750554" duration="1169000" />
+      <workItem from="1542180006259" duration="4467000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="IStudentDaoTest_deleteStudentById - 2018.11.14 at 16h 40m 06s.xml">
+      <configuration name="IStudentDaoTest.deleteStudentById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IStudentDaoTest_updateStudentById - 2018.11.14 at 16h 40m 41s.xml">
+      <configuration name="IStudentDaoTest.updateStudentById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IStudentDaoTest_updateStudentById - 2018.11.14 at 16h 40m 56s.xml">
+      <configuration name="IStudentDaoTest.updateStudentById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IStudentDaoTest_updateStudentById - 2018.11.14 at 16h 41m 11s.xml">
+      <configuration name="IStudentDaoTest.updateStudentById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IStudentDaoTest_queryStudentById_(1) - 2018.11.14 at 16h 41m 39s.xml">
+      <configuration name="IStudentDaoTest.queryStudentById (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IStudentDaoTest_queryStudentById_(1) - 2018.11.14 at 16h 41m 48s.xml">
+      <configuration name="IStudentDaoTest.queryStudentById (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IStudentDaoTest_queryAllStudent_(1) - 2018.11.14 at 16h 41m 57s.xml">
+      <configuration name="IStudentDaoTest.queryAllStudent (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IStudentDaoTest_deleteStudentById_(1) - 2018.11.14 at 16h 43m 18s.xml">
+      <configuration name="IStudentDaoTest.deleteStudentById (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IStudentDaoTest_deleteStudentById_(1) - 2018.11.14 at 16h 44m 42s.xml">
+      <configuration name="IStudentDaoTest.deleteStudentById (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IStudentDaoTest_deleteStudentById_(1) - 2018.11.14 at 16h 45m 46s.xml">
+      <configuration name="IStudentDaoTest.deleteStudentById (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="75559000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29613733" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32982457" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32982457" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32982457" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3299356" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3299356" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29613733" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32982457" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32982457" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32982457" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3299356" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3299356" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.2.RELEASE/spring-test-5.1.2.RELEASE.jar!/org/springframework/test/context/support/ContextLoaderUtils.class</url>
+          <line>124</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/task1Mybatis/src/main/resource/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/binding/MapperProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1586">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Mybatis/src/main/resource/studentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Spring-Mybatis/src/main/resource/applicationContext-trans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="9" column="109" lean-forward="true" selection-start-line="9" selection-start-column="109" selection-end-line="9" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Spring-Mybatis/src/main/resource/datasource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.2.RELEASE/spring-test-5.1.2.RELEASE.jar!/org/springframework/test/context/support/ContextLoaderUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3250">
+          <caret line="124" column="2" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Spring-Mybatis/src/main/resource/logs/log.2018-11-09">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="3" column="132" lean-forward="true" selection-start-line="3" selection-start-column="132" selection-end-line="3" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Spring-Mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="159" column="19" selection-start-line="17" selection-start-column="4" selection-end-line="159" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Spring-MybatisAnnotation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="157" column="21" lean-forward="true" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Spring-MybatisAnnotation/src/main/java/TASK1/common/bean/Student.java" />
+    <entry file="file://$PROJECT_DIR$/task1Spring-MybatisAnnotation/src/main/java/TASK1/dao/IStudentDao.java" />
+    <entry file="file://$PROJECT_DIR$/task1Spring-MybatisAnnotation/src/main/java/com/jnshu/task1/task1/common/bean/Student.java" />
+    <entry file="file://$PROJECT_DIR$/task1Spring-MybatisAnnotation/src/main/java/com/jnshu/task1/task1/dao/IStudentDao.java" />
+    <entry file="file://$PROJECT_DIR$/task1Spring-MybatisAnnotation/src/main/resource/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Spring-MybatisAnnotation/src/main/java/com/jnshu/task1/common/bean/Student.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Spring-MybatisAnnotation/src/main/resource/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2132">
+          <caret line="80" column="11" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Spring-MybatisAnnotation/src/test/java/com/jnshu/task1/dao/IStudentDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Spring-Mybatis/src/main/java/com/jnshu/task1/common/bean/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Spring-Mybatis/src/main/java/com/jnshu/task1/dao/IStudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Spring-Mybatis/src/main/resource/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="80" column="11" lean-forward="true" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Spring-Mybatis/src/main/resource/studentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1jdbcTemplate/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Spring-MybatisAnnotation/src/main/java/com/jnshu/task1/dao/IStudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="24" column="139" selection-start-line="24" selection-start-column="139" selection-end-line="24" selection-end-column="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1JDBC/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1JDBC/src/test/java/com/jnshu/task1/dao/interfaces/IStudentDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="959">
+          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1JDBC/src/main/java/com/jnshu/task1/dao/impl/StudentDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-912">
+          <caret line="79" column="36" lean-forward="true" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1JDBC/src/main/java/com/jnshu/task1/dao/interfaces/IStudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/java1/jdk1.8.0_151/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.18.RELEASE/spring-jdbc-4.3.18.RELEASE-sources.jar!/org/springframework/jdbc/core/BeanPropertyRowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="e#4780#4781#0" expanded="true" />
+            <element signature="e#4810#4811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar!/org/apache/commons/logging/LogFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="839" selection-start-line="839" selection-end-line="839" />
+          <folding>
+            <element signature="e#36136#36288#0" expanded="true" />
+            <element signature="e#36287#36288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/java1/jdk1.8.0_151/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="1440" selection-start-line="1440" selection-end-line="1440" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/java1/jdk1.8.0_151/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
+          <folding>
+            <element signature="e#11597#11598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/java1/jdk1.8.0_151/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1jdbcTemplate/src/main/java/com/jnshu/task1/dao/interfaces/IStudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.18.RELEASE/spring-test-4.3.18.RELEASE-sources.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="190" selection-start-line="190" selection-end-line="190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.18.RELEASE/spring-test-4.3.18.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.18.RELEASE/spring-test-4.3.18.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunBeforeTestMethodCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#1464#1658#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/java1/jdk1.8.0_151/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/java1/jdk1.8.0_151/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1jdbcTemplate/src/test/java/com/jnshu/task1/dao/interfaces/IStudentDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1jdbcTemplate/src/main/java/com/jnshu/task1/dao/impl/StudentDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="99" column="51" lean-forward="true" selection-start-line="99" selection-start-column="51" selection-end-line="99" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Mybatis/src/test/java/com/jnshu/task1/dao/IStudentDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="106" column="30" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Spring-Mybatis/src/main/resource/logs/log.2018-11-13">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-552">
+          <caret line="1157" column="182" lean-forward="true" selection-start-line="1157" selection-start-column="182" selection-end-line="1157" selection-end-column="182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Spring-Mybatis/src/main/resource/logs/log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="491" column="73" lean-forward="true" selection-start-line="491" selection-start-column="73" selection-end-line="491" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Spring-Mybatis/src/main/resource/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1Spring-Mybatis/src/test/java/com/jnshu/task1/dao/IStudentDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>task1JDBC</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
